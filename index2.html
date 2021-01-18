@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glassmorphism Hover</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  
+<div id="app">
+  <div class="card" v-for="card in cards">
+    <div class="content">
+      <div class="content__index">{{card.index}}</div>
+      <div class="content__title">{{card.title}}</div>
+      <div class="content__description">{{content}}</div><a class="content__button" href="#">Read More</a>
+    </div>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
